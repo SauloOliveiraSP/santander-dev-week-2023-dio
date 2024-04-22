@@ -1,9 +1,9 @@
-package service.Impl;
+package me.service.Impl;
 
 import me.domain.model.User;
 import me.domain.repository.UserRepository;
+import me.service.UserService;
 import org.springframework.stereotype.Service;
-import service.UserService;
 
 import java.util.NoSuchElementException;
 
